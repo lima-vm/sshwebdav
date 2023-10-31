@@ -9,7 +9,7 @@ jobs:
   main:
     strategy:
       matrix:
-        platform: [ubuntu-20.04, macos-10.15]
+        platform: [ubuntu-20.04, macos-12]
     runs-on: ${{ matrix.platform }}
     steps:
     - uses: actions/setup-go@v2
